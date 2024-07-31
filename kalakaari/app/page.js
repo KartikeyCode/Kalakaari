@@ -14,8 +14,8 @@ export default function Home() {
       <Content/>
       </div>
       <div className="links hidden  lg:flex gap-1 2xl:gap-2 absolute lg:bottom-7 lg:right-6 xl:right-7 xl:bottom-9 2xl:right-16 2xl:bottom-12">
-                <a href="/"> <Image src="/insta.png" className="lg:w-5 xl:w-6 2xl:w-[34.55px]" width={34.55} height={34.55} /> </a>
-                <a href="/"> <Image src="/facebook.png" className="lg:w-5 xl:w-6 2xl:w-[34.55px]" width={34.55} height={34.55} /> </a>
+                <a target="_blank" href="https://www.instagram.com/kalakaari.official"> <Image src="/insta.png" className="lg:w-5 xl:w-6 2xl:w-[34.55px]" width={34.55} height={34.55} /> </a>
+                <a target="_blank" href="https://www.facebook.com/people/Kalakaariofficial/100076426309784/"> <Image src="/facebook.png" className="lg:w-5 xl:w-6 2xl:w-[34.55px]" width={34.55} height={34.55} /> </a>
       </div>
     </div>
     <div className="lg:hidden flex min-h-screen flex-col bg-[url('/phonebg.png')]">
